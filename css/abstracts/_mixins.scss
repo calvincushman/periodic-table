@@ -1,0 +1,17 @@
+$neat-grid: (
+  columns: 18,
+  gutter: 4px,
+);
+
+$element-margin: (
+  margin-top(2px)
+  margin-bottom(4px)
+);
+
+@mixin padding {
+  padding: 5px;
+}
+
+.grid-column {
+  @include padding;
+}

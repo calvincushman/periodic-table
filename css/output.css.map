@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAK;EACH,KAAK,EAAE,IAAI;;ACIb,YAAa;EC8BX,KAAK,EAAE,0BAA4C;EACnD,KAAK,ECpBkB,IAAI;EDqB3B,WAAsC,EAJvB,GAAqC;EDzBpD,2BAAiB;IGuBf,WAAsC,EADtB,iCAAkE;EHjBpF,yDAAmC;IGkBjC,WAAsC,EADtB,iCAAkE",
-"sources": ["abstracts/_placeholders.scss","layout/_grid.scss","neat/neat/mixins/_grid-column.scss","neat/neat/functions/_neat-float-direction.scss","neat/neat/mixins/_grid-push.scss"],
+"mappings": "AAcA,YAAa;EAHX,OAAO,EAAE,GAAG;;ACaZ,uBAAS;EACP,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,KAAK;;AClBlB,YAAa;EC0BX,KAAK,EAAE,0BAA4C;EACnD,KAAK,ECpBkB,IAAI;EDqB3B,WAAsC,EAJvB,GAAqC;EDrBpD,2BAAiB;IGmBf,WAAsC,EADtB,iCAAkE;EHbpF,yDAAmC;IGcjC,WAAsC,EADtB,iCAAkE;;AC3BtF,gBAAiB;EACf,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;;AAGpB,YAAa;EACX,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,eAAe;EACvB,UAAU,EAAE,UAAU;EACtB,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,GAAG",
+"sources": ["abstracts/_mixins.scss","neat/neat/mixins/_grid-container.scss","layout/_grid.scss","neat/neat/mixins/_grid-column.scss","neat/neat/functions/_neat-float-direction.scss","neat/neat/mixins/_grid-push.scss","layout/_body.scss"],
 "names": [],
 "file": "output.css"
 }

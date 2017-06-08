@@ -1,7 +1,11 @@
 $neat-grid: (
   columns: 18,
-  gutter: 3px,
+  gutter: 4px,
 );
+
+.table-container {
+  @include grid-container;
+}
 
 .grid-column {
   @include grid-column(1, $neat-grid);
