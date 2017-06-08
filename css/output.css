@@ -1,5 +1,11 @@
 .grid-column {
-  padding: 5px; }
+  margin: 0; }
+
+h6 {
+  margin: 0; }
+
+h4 {
+  margin: 0; }
 
 .table-container::after {
   clear: both;
@@ -22,9 +28,40 @@
 
 .grid-column {
   height: 74px;
-  border: 1px solid black;
   box-sizing: border-box;
   margin-bottom: 4px;
   padding: 4px; }
+
+.orange {
+  background-color: #f8b707;
+  border: 2px solid #c69206; }
+
+.yellow {
+  background-color: #f3f300;
+  border: 2px solid #c0c000; }
+
+.pink {
+  background-color: #dd9999;
+  border: 2px solid #d07373; }
+
+.blue {
+  background-color: #4caffa;
+  border: 2px solid #1a99f9; }
+
+.green {
+  background-color: #3bd93b;
+  border: 2px solid #25bc25; }
+
+.light-blue {
+  background-color: #a8bffa;
+  border: 2px solid #789cf7; }
+
+.salmony {
+  background-color: #FFAA88;
+  border: 2px solid #ff8655; }
+
+.puce {
+  background-color: #ddaacc;
+  border: 2px solid #ce86b6; }
 
 /*# sourceMappingURL=output.css.map */

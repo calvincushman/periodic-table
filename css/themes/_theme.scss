@@ -1,0 +1,20 @@
+
+
+$colors: (
+  'orange' : $ucla-gold,
+  'yellow' : $aureolin,
+  'pink' : $petite-orchid,
+  'blue' : $picton-blue,
+  'green' : $lime-green,
+  'light-blue' : $perano,
+  'salmony' : $hit-pink,
+  'puce' : $pink-pearl,
+
+);
+
+@each $color, $hex in $colors {
+  .#{$color} {
+    background-color: $hex;
+    border: 2px solid darken($hex, 10%);
+  }
+}

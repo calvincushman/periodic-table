@@ -8,10 +8,10 @@ $element-margin: (
   margin-bottom(4px)
 );
 
-@mixin padding {
-  padding: 5px;
+@mixin margin {
+  margin: 0;
 }
 
 .grid-column {
-  @include padding;
+  @include margin;
 }

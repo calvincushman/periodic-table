@@ -3,6 +3,7 @@ $neat-grid: (
   gutter: 4px,
 );
 
+
 .table-container {
   @include grid-container;
 }
@@ -18,4 +19,5 @@ $neat-grid: (
   &:nth-of-type(5),&:nth-of-type(13) {
     @include grid-push(10);
   }
+
 };
