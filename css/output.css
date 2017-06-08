@@ -1,3 +1,13 @@
+.row {
+  clear: both; }
 
+.grid-column {
+  width: calc(5.55556% - 3.16667px);
+  float: left;
+  margin-left: 3px; }
+  .grid-column:nth-of-type(2) {
+    margin-left: calc(88.88889% - 5.66667px + 6px); }
+  .grid-column:nth-of-type(5), .grid-column:nth-of-type(13) {
+    margin-left: calc(55.55556% - 4.66667px + 6px); }
 
 /*# sourceMappingURL=output.css.map */
