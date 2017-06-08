@@ -3,6 +3,14 @@ $neat-grid: (
   gutter: 4px,
 );
 
+.navbar {
+  @include grid-column(18, $neat-grid);
+  background: pink;
+  height: 80px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: $helvetica;
+}
 
 .table-container {
   @include grid-container;

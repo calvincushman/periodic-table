@@ -1,7 +1,17 @@
 $neat-grid: (
   columns: 18,
   gutter: 4px,
+  media: 800px,
 );
+
+.navbar {
+  @include grid-column(18);
+
+  @include grid-media($neat-grid) {
+    @include grid-column(3);
+    }
+  }
+
 
 $element-margin: (
   margin-top(2px)
@@ -15,3 +25,17 @@ $element-margin: (
 .grid-column {
   @include margin;
 }
+
+
+
+// .navbar {
+//   @include grid-column(18) {
+//     @include grid-media ($neat-grid) {
+//       @include grid-column(9);
+//     }
+//   }
+// }
+//
+// .navbar {
+//
+// }
