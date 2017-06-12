@@ -31,5 +31,4 @@ $neat-grid: (
 
 .grid-column {
   @include grid-column(1, $neat-grid);
-
 };
