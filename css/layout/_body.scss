@@ -1,4 +1,5 @@
 body {
+  background-color: #3a4040;
 }
 
 .table-container {
@@ -8,8 +9,22 @@ body {
 }
 
 .grid-column {
+  border-radius: 4px;
   height: 74px;
   box-sizing: border-box;
   margin-bottom: 4px;
   padding: 4px;
+  transition: transform (2s, .2s);
+}
+
+.grid-column:hover {
+  transform: scale(2);
+  z-index: 100;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.sub1 {
+  max-width: 900px;
+  margin: 10px auto;
+  display: none;
 }

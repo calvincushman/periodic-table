@@ -9,7 +9,8 @@ $colors: (
   'light-blue' : $perano,
   'salmony' : $hit-pink,
   'puce' : $pink-pearl,
-
+  'white' : $white,
+  'grey' : $light-grey,
 );
 
 @each $color, $hex in $colors {
