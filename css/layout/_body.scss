@@ -6,6 +6,11 @@ body {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  @media #{$medium} {
+    max-width: 795px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .grid-column {
@@ -15,12 +20,37 @@ body {
   margin-bottom: 4px;
   padding: 4px;
   transition: transform (2s, .2s);
+
+  h6:nth-of-type(2) {
+    display: none;
+    font-size: 8px;
+  }
+
+  @media #{$medium} {
+    height: 40px;
+    width: 40px;
+    h4 {
+      display: none;
+    }
+    h6 {
+      font-size: 8px;
+    }
+  }
 }
 
 .grid-column:hover {
-  transform: scale(2);
+  transform: scale(3);
   z-index: 1;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  h6:nth-of-type(2) {
+    display: block;
+  }
+  @media #{$medium} {
+    transform: scale(5);
+    h6:nth-of-type(2) {
+      display: block;
+    }
+  }
 }
 
 .sub1 {
@@ -28,5 +58,5 @@ body {
   margin-right: auto;
   margin-top: 40px;
   max-width: 1400px;
-  // display: none;
+  display: none;
 }
